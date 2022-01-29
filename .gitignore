@@ -1,15 +1,15 @@
 #ignore all kind of files
 *
-build/*
+
 
 #except ipython & python files
 !*.ipynb
-!*.py
+!*.pygit push 
 
 #except c++ files
-!.cpp
-!.h
-!CMakeLists.txt
+!*.cpp
+!*.h
+#!CMakeLists.txt
 
 # But not these files...
 !.gitignore
@@ -17,4 +17,8 @@ build/*
 
 # ...even if they are in subdirectories
 !*/
+
+#finally ignore following dirs!
+build
+bin
 
