@@ -4,12 +4,13 @@
 
 #except ipython & python files
 !*.ipynb
-!*.pygit push 
+!*.py
+
 
 #except c++ files
 !*.cpp
 !*.h
-#!CMakeLists.txt
+!CMakeLists.txt
 
 # But not these files...
 !.gitignore
