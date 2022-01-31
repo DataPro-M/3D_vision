@@ -14,6 +14,8 @@
 # But not these files...
 !.gitignore
 !*.md
+!*.png
+!*.gif
 
 # ...even if they are in subdirectories
 !*/
