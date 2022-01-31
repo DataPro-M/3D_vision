@@ -30,12 +30,10 @@ My 3D vision journey
 <div style="text-align:center">
      <h2 align="center">
          <i class="fas fa-calendar-day" aria-hidden="true">  Day 2 of #3D_vision_journey </i>
-    </h2>      
+    </h2>   
+    <img  src="images/open3d_logo.png" height="50"/>   
 </div>
 
-<h3 style='text-align: center;'>
-    <img  src="images/open3d_logo.png" height="50"/>     
-</h3> 
 
 - [Day 02](day02-04)
 
@@ -56,12 +54,11 @@ My 3D vision journey
 <div style="text-align:center">
      <h2 align="center">
          <i class="fas fa-calendar-day" aria-hidden="true">  Day 3 of #3D_vision_journey </i>
-    </h2>      
+    </h2> 
+    <img  src="images/open3d_logo.png" height="50"/>      
 </div>
 
-<h3 style='text-align: center;'>
-    <img  src="images/open3d_logo.png" height="50"/>     
-</h3> 
+
 
 - [Day 03](day02-04)
 
@@ -82,12 +79,11 @@ My 3D vision journey
 <div style="text-align:center">
      <h2 align="center">
          <i class="fas fa-calendar-day" aria-hidden="true">  Day 4 of #3D_vision_journey </i>
-    </h2>      
+    </h2> 
+    <img  src="images/open3d_logo.png" height="50"/>     
 </div>
 
-<h3 style='text-align: center;'>
-    <img  src="images/open3d_logo.png" height="50"/>     
-</h3> 
+ 
 
 - [Day 04](day02-04)
 
