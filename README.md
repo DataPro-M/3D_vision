@@ -76,11 +76,10 @@ My 3D vision journey
 
 ***
 
-<div style="text-align:center">
-    <h2 align="center">
-         <i class="fas fa-calendar-day" aria-hidden="true">  Day 4 of #3D_vision_journey </i>
-    </h2>           
-</div>
+
+  <h2 align="center">
+        <i class="fas fa-calendar-day" aria-hidden="true">  Day 4 of #3D_vision_journey </i>
+  </h2>
 
 <p align="center">
   <img  src="images/open3d_logo.png" height="50"/>  
