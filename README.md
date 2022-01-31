@@ -37,7 +37,7 @@ My 3D vision journey
     <img  src="images/open3d_logo.png" height="50"/>     
 </h3> 
 
-- [Day 02](day01-03)
+- [Day 02](day02-04)
 
 ### Lessons Learned
 
@@ -63,7 +63,7 @@ My 3D vision journey
     <img  src="images/open3d_logo.png" height="50"/>     
 </h3> 
 
-- [Day 03](day01-03)
+- [Day 03](day02-04)
 
 ### Lessons Learned
 
@@ -89,7 +89,7 @@ My 3D vision journey
     <img  src="images/open3d_logo.png" height="50"/>     
 </h3> 
 
-- [Day 04](day01-03)
+- [Day 04](day02-04)
 
 ### Lessons Learned
 
