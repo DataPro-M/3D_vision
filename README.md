@@ -142,7 +142,7 @@ RUN:
   make
 
   cd ../bin
-  ././pointCloud <path/to/pointcloud.ply>
+  ./pointCloud <path/to/pointcloud.ply>
 ```
 
 ### Lessons Learned
