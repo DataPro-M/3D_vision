@@ -165,3 +165,31 @@ RUN:
 |:---------------:|:---------------:|
 |<img  src="images/Day_04_00.png" width="300"/>  |<img  src="images/Day_04_01_bbox.gif" width="300"/>|
 
+
+***
+
+<h2 align="center">
+      <i class="fas fa-calendar-day" aria-hidden="true">  Day 6 of #3D_vision_journey </i>
+</h2>
+
+<p align="center">
+  <img  src="images/open3d_logo.png" height="50"/>  
+</p>
+
+
+- [Day 06](day06)
+
+### Lessons Learned
+
+**Finding neighbouring points**
+- [x] Painting the 1500th point red  
+- [x] KDTreeFlann
+- [x] search_knn_vector_3d
+- [x] search_radius_vector_3d 
+- [x] search_hybrid_vector_3d 
+
+### Screenshots
+
+| Painting the 1500th point red | Find its 200 nearest neighbors: blue  | Find its neighbors with distance less than 0.2: green | Hybrid search |
+|:---------------:|:---------------:|:---------------:|:---------------:|
+|<img  src="images/Day_05_01_red.gif" width="300"/>  |<img  src="images/Day_05_02_knn.gif" width="300"/>|<img  src="images/Day_05_03_radius.gif" width="300"/> |<img  src="images/Day_05_04_hybrid.gif" width="300"/> |
