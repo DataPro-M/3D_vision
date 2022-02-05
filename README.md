@@ -132,7 +132,7 @@ My 3D vision journey
 
 
 
-- [Day 05 C++ Examples](day02-05)
+- [Day 05 C++ Examples](day02-05/src/)
 
 RUN:
 ```
