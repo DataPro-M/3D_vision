@@ -140,6 +140,9 @@ RUN:
   cd build
   cmake ..
   make
+
+  cd ../bin
+  ././pointCloud <path/to/pointcloud.ply>
 ```
 
 ### Lessons Learned
