@@ -16,8 +16,8 @@ My 3D vision journey
 ### Lessons Learned
 
 - [x] install open3D
-- [x] load pintcloud data
-- [x] visualize pintcloud data
+- [x] load Pointcloud data
+- [x] visualize Pointcloud data
 
 ### Screenshots
 
@@ -34,11 +34,11 @@ My 3D vision journey
 </p>
 
 
-- [Day 02](day02-04)
+- [Day 02](day02-05)
 
 ### Lessons Learned
 
-- [x] Poin Cloud Voxel Downsampling
+- [x] PointCloud Voxel Downsampling
 - [x] Vertex  Normal Estimation
 - [x] Crop point cloud 
 
@@ -60,7 +60,7 @@ My 3D vision journey
 
 
 
-- [Day 03](day02-04)
+- [Day 03](day02-05)
 
 ### Lessons Learned
 
@@ -86,7 +86,7 @@ My 3D vision journey
 
  
 
-- [Day 04](day02-04)
+- [Day 04](day02-05)
 
 ### Lessons Learned
 
@@ -121,3 +121,44 @@ My 3D vision journey
 </table>
 
 ***
+
+<h2 align="center">
+      <i class="fas fa-calendar-day" aria-hidden="true">  Day 5 of #3D_vision_journey </i>
+</h2>
+
+<p align="center">
+  <img  src="images/open3d_logo.png" height="50"/>  
+</p>
+
+
+
+- [Day 05 C++ Examples](day02-05)
+
+RUN:
+```
+  mkdir build
+  cd build
+  cmake ..
+  make
+```
+
+### Lessons Learned
+
+- [x] open3d c++ [CMakeLists.txt](day02-05/CMakeLists.txt) 
+- [x] load Pointcloud data
+- [x] visualize Pointcloud data
+- [x] PointCloud Voxel Downsampling
+- [x] Vertex  Normal Estimation
+- [x] Crop point cloud 
+- [x] DBSCAN Clustering: Group local point cloud clusters together 
+- [x] Plane segmentation 
+- [x] bounding box
+
+
+
+### Screenshots
+
+| C++ examples |  bounding box  | 
+|:---------------:|:---------------:|
+|<img  src="images/Day_04_00.png" width="300"/>  |<img  src="images/Day_04_01_bbox.gif" width="300"/>|
+
