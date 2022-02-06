@@ -193,3 +193,45 @@ RUN:
 | Painting the 1500th point red | Find its 200 nearest neighbors: blue  | Find its neighbors with distance less than 0.2: green | Hybrid search |
 |:---------------:|:---------------:|:---------------:|:---------------:|
 |<img  src="images/Day_05_01_red.gif" width="300"/>  |<img  src="images/Day_05_02_knn.gif" width="300"/>|<img  src="images/Day_05_03_radius.gif" width="300"/> |<img  src="images/Day_05_04_hybrid.gif" width="300"/> |
+
+***
+
+<h2 align="center">
+      <i class="fas fa-calendar-day" aria-hidden="true">  Day 7 of #3D_vision_journey </i>
+</h2>
+
+<p align="center">
+  <img  src="images/open3d_logo.png" height="50"/>  
+</p>
+
+
+
+- [Day 07 C++ KDTree](day06-07/src/)
+
+RUN:
+```
+  mkdir build
+  cd build
+  cmake ..
+  make
+
+  cd ../bin
+  ./KDTree
+```
+
+### Lessons Learned
+
+- [x] open3d c++ [CMakeLists.txt](day06-07/CMakeLists.txt) 
+- [x] path/to/the/pointCloud/data
+- [x] Paint all points gray
+- [x] Get access & Paint the Nth point
+- [x] KNN Search (paint 200 NN points blue)
+- [x] Radius Nearest Neighbors Search
+- [x] Hybrid search
+
+
+
+### Screenshots
+
+<img  src="images/Day_07_01.png" width="300"/> 
+

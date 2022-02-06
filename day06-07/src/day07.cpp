@@ -15,15 +15,7 @@ int main(int argc, char *argv[]) {
         cout << "5.  KNN Search (paint 200 NN points blue) " << endl;
         cout << "6.  Radius Nearest Neighbors Search" << endl;
         cout << "7.  Hybrid search" << endl;
-        cout << "8.  Quit\n" << endl;
-        /*
-        
-        
-        cout << "8.  DBSCAN Clustering" << endl;
-        cout << "9.  Plane segmentation" << endl;
-        cout << "10. bounding box\n" << endl;
-        
-        */
+        cout << "8.  Quit\n" << endl;        
 
         cin >> x;
         if (cin.fail()) {
@@ -32,11 +24,11 @@ int main(int argc, char *argv[]) {
         }
         printf("\033c"); // For Linux/Unix : clear console
         
+        // --- get path of the pointcloud data ---//
         char * dir = getcwd(NULL, 0); // get current working dir path --> /bin 
         fs::path p = dir;
-
       
-        fs::path fullPath = p.parent_path().parent_path(); // go two dir up
+        fs::path fullPath = p.parent_path().parent_path(); // go back two dirs
         string fileName("data/pointcloud/cloud_bin_0.pcd");
         fullPath /= fileName; // add filename to path
         cout  << "fullPath of data is: " << fullPath.c_str() << endl;
@@ -52,7 +44,8 @@ int main(int argc, char *argv[]) {
                                         
                 break; 
 
-            case 2:                 
+            case 2: 
+                // visualize                
                 KDT.visualize_PC();
                 break;
 
