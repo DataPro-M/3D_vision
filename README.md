@@ -235,3 +235,48 @@ RUN:
 
 <img  src="images/Day_07_01.png" width="300"/> 
 
+***
+
+<h2 align="center">
+      <i class="fas fa-calendar-day" aria-hidden="true">  Day 8 of #3D_vision_journey </i>
+</h2>
+
+<p align="center">
+  <img  src="images/open3d_logo.png" height="50"/>  
+</p>
+
+`Point Cloud Outlier Removal` 
+
+- [Day 08 python OutlierRemoval](day08/)
+
+- [Day 08 C++ OutlierRemoval](day08/src/)
+
+- [dataset: table_scene_lms400.pcd](https://github.com/PointCloudLibrary/data/blob/master/tutorials/table_scene_lms400.pcd)
+
+<img  src="images/Day_08_05_cpp.png" /> 
+
+RUN:
+```
+  mkdir build
+  cd build
+  cmake ..
+  make
+
+  cd ../bin
+  ./OutlierRemoval
+```
+
+### Lessons Learned
+
+- [x] open3d c++ [CMakeLists.txt](day08/CMakeLists.txt) 
+- [x] Statistical outlier removal
+- [x] Radius outlier removal
+
+### Screenshots
+| Original gray data   |  DownSampled    | Statistical outlier removal | Radius outlier removal| 
+|:---------------:|:---------------:|:---------------------------:|:---------------------:|
+|<img  src="images/Day_08_01_table.gif" width="300"/>  |<img  src="images/Day_08_02_dws.gif" width="300"/>|<img  src="images/Day_08_03_SOR.gif" width="300"/>  |<img  src="images/Day_08_04_ROR.gif" width="300"/>|
+
+_**Note:** Outliers: red points_
+
+
