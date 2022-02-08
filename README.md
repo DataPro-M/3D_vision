@@ -280,4 +280,48 @@ RUN:
 _**Note:** Outliers: red points_
 
 
-![](images/Day_08_04_ROR.gif)
+***
+
+<h2 align="center">
+      <i class="fas fa-calendar-day" aria-hidden="true">  Day 9 of #3D_vision_journey </i>
+</h2>
+
+<p align="center">
+  <img  src="images/open3d_logo.png" height="50"/>  
+</p>
+
+Point Cloud `shifting, scaling, and Voxelization` 
+
+- [Day 09 python ](day09/)
+
+- [Day 09 C++ ](day09/src/)
+
+- [dataset: Bunny.ply](https://github.com/naucoin/VTKData/blob/master/Data/bunny.ply)
+
+<img  src="images/Day_09_00.png" /> 
+
+RUN:
+```
+  mkdir build
+  cd build
+  cmake ..
+  make
+
+  cd ../bin
+  ./Voxelization
+```
+
+### Lessons Learned
+
+- [x] open3d c++ [CMakeLists.txt](day09/CMakeLists.txt) 
+- [x] Point cloud Shifting, and Scaling
+- [x] Voxelization
+
+### Screenshots
+| 2 bunnies (One shifted up)   |  2 bunies (one Scaled)   | Voxelization | 
+|:---------------:|:---------------:|:---------------------------:|
+|<img  src="images/Day_09_01.gif" width="300"/>  |<img  src="images/Day_09_02.gif" width="300"/>|<img  src="images/Day_09_03.gif" width="300"/>  |
+
+
+
+
