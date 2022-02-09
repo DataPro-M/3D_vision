@@ -322,6 +322,58 @@ RUN:
 |:---------------:|:---------------:|:---------------------------:|
 |<img  src="images/Day_09_01.gif" width="300"/>  |<img  src="images/Day_09_02.gif" width="300"/>|<img  src="images/Day_09_03.gif" width="300"/>  |
 
+***
+
+<h2 align="center">
+      <i class="fas fa-calendar-day" aria-hidden="true">  Day 10 of #3D_vision_journey </i>
+</h2>
+
+<p align="center">
+  <img  src="images/open3d_logo.png" height="50"/>  
+</p>
+
+Point Cloud `shifting, scaling, and Voxelization` 
+
+- [Day 10 python ](day10/)
+- [Day 10 C++ ](day10/src/)
+
+<img  src="images/Day_10_11.png" /> 
+
+RUN:
+```
+  mkdir build
+  cd build
+  cmake ..
+  make
+
+  cd ../bin
+  ./PoissonSurfaceSeconstruction
+```
+
+### Lessons Learned
+
+- [x] Poisson surface reconstruction
+- [x] Visualizing Densities
+- [x] Remove low density vertices
+- [x] Mesh to point cloud
+- [x] Alpha Shape
+- [x] Ball pivoting
+- [x] Normal estimation
+
+### Screenshots
+| Original PointCloud   |  Mesh (surface reconstructed)   |
+|:---------------:|:---------------:|
+|<img  src="images/Day_10_01.png" width="300"/>  |<img  src="images/Day_10_02.png" width="300"/>|
+
+|Densities (Violet=low) | remove low densities |
+|:---------------------:|:--------------------:|
+|<img  src="images/Day_10_03.png" width="300"/>  |<img  src="images/Day_10_04.png" width="300"/>  |
 
 
+| Mesh                  | mesh to point cloud (750 sampling) | Alpha Shape  |
+|:---------------------:|:--------------------:|:--------------------:|
+|<img  src="images/Day_10_05.png" width="300"/>  |<img  src="images/Day_10_06.png" width="300"/>  |<img  src="images/Day_10_07.png" width="300"/>  |
 
+|  mesh to point cloud (3000 sampling) | Ball pivoting| Normal estimation
+|:---------------------:|:----------------------:|:----------------------:|
+|<img  src="images/Day_10_08.png" width="300"/> |<img  src="images/Day_10_09.png" width="300"/> |<img  src="images/Day_10_10.png" width="300"/> |
