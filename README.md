@@ -347,3 +347,46 @@ RUN:
 |  mesh to point cloud (3000 sampling) | Ball pivoting| Normal estimation
 |:---------------------:|:----------------------:|:----------------------:|
 |<img  src="images/Day_10_08.png" width="300"/> |<img  src="images/Day_10_09.png" width="300"/> |<img  src="images/Day_10_10.png" width="300"/> |
+
+
+
+***
+
+<h2 align="center">
+      <i class="fas fa-calendar-day" aria-hidden="true">  Day 11 of #3D_vision_journey </i>
+</h2>
+
+<p align="center">
+  <img  src="images/open3d_logo.png" height="50"/>  
+</p>
+
+Point Cloud `shifting, scaling, and Voxelization` 
+
+- [Day 11 python ](day11/)
+- [Day 11 C++ ](day11/src/)
+
+<img  src="images/Day_11_00.png" /> 
+
+RUN:
+```
+  mkdir build
+  cd build
+  cmake ..
+  make
+
+  cd ../bin
+  ./Transformation
+```
+
+### Lessons Learned
+
+- [x] Translate
+- [x] Rotation
+- [x] Scale
+- [x] General Transformation
+
+### Screenshots
+| Translate   |  Rotation  |Scale| General Transformation |
+|:---------------:|:---------------:|:---------------------:|:--------------------:|
+|<img  src="images/Day_11_01.png" width="300"/>  |<img  src="images/Day_11_02.png" width="300"/>|<img  src="images/Day_11_03.png" width="300"/>  |<img  src="images/Day_11_04.png" width="300"/>  |
+
