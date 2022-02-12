@@ -44,9 +44,7 @@ My 3D vision journey
 
 ### Screenshots
 
-| Original | Voxel Downsampling  | Normal Estimation | Crop Point Cloud |
-|:---------------:|:---------------:|:---------------:|:---------------:|
-|<img  src="images/Day_02_01_org.gif" width="300"/>  |<img  src="images/Day_02_02_dws.gif" width="300"/>|<img  src="images/Day_02_03_nrm.gif" width="300"/> |<img  src="images/Day_02_04_crop.gif" width="300"/> |
+<img  src="images/Day_02.gif" />
 
 ***
 
@@ -70,9 +68,7 @@ My 3D vision journey
 
 ### Screenshots
 
-| Painting point cloud | Removing object  | Convex hull  | 
-|:---------------:|:---------------:|:---------------:|
-|<img  src="images/Day_03_01_paint.gif" width="300"/>  |<img  src="images/Day_03_02_dist.gif" width="300"/>|<img  src="images/Day_03_03_convex.gif" width="300"/> |
+<img  src="images/Day_03.gif" />
 
 ***
 
@@ -96,29 +92,7 @@ My 3D vision journey
 
 ### Screenshots
 
-
-<table>
-  <thead>
-    <tr>      
-      <th>DBSCAN Clustering</th>
-      <th>Plane segmentation</th>
-      <th colspan="2">Hidden point removal</th>
-    </tr>
-  </thead>
-
-  <tbody>    
-    <tr>
-      <td rowspan="2"><img  src="images/Day_03_04_DBSCAN.gif" width="300"/></td>
-      <td rowspan="2"><img  src="images/Day_03_05_plain_seg.gif" width="300"/></td>
-      <td>Before</td>
-      <td>After</td>
-    </tr>
-    <tr>      
-      <td><img  src="images/Day_03_06_hid_b4.gif" width="300"/></td>
-      <td><img  src="images/Day_03_07_hid_aftr.gif" width="300"/></td>
-    </tr>
-  </tbody>
-</table>
+<img  src="images/Day_04.gif" />
 
 ***
 
@@ -190,9 +164,7 @@ RUN:
 
 ### Screenshots
 
-| Painting the 1500th point red | Find its 200 nearest neighbors: blue  | Find its neighbors with distance less than 0.2: green | Hybrid search |
-|:---------------:|:---------------:|:---------------:|:---------------:|
-|<img  src="images/Day_05_01_red.gif" width="300"/>  |<img  src="images/Day_05_02_knn.gif" width="300"/>|<img  src="images/Day_05_03_radius.gif" width="300"/> |<img  src="images/Day_05_04_hybrid.gif" width="300"/> |
+<img  src="images/Day_06.gif" />
 
 ***
 
@@ -273,9 +245,8 @@ RUN:
 - [x] Radius outlier removal
 
 ### Screenshots
-| Original gray data   |  DownSampled    | Statistical outlier removal | Radius outlier removal| 
-|:---------------:|:---------------:|:---------------------------:|:---------------------:|
-|<img  src="images/Day_08_01_table.gif" width="300"/>  |<img  src="images/Day_08_02_dws.gif" width="300"/>|<img  src="images/Day_08_03_SOR.gif" width="300"/>  |<img  src="images/Day_08_04_ROR.gif" width="300"/>|
+
+<img  src="images/Day_08.gif" />
 
 _**Note:** Outliers: red points_
 
@@ -318,9 +289,8 @@ RUN:
 - [x] Voxelization
 
 ### Screenshots
-| 2 bunnies (One shifted up)   |  2 bunies (one Scaled)   | Voxelization | 
-|:---------------:|:---------------:|:---------------------------:|
-|<img  src="images/Day_09_01.gif" width="300"/>  |<img  src="images/Day_09_02.gif" width="300"/>|<img  src="images/Day_09_03.gif" width="300"/>  |
+
+<img  src="images/Day_09.gif" />
 
 ***
 
