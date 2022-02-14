@@ -390,3 +390,48 @@ RUN:
 |:---------------:|:---------------:|:---------------------:|:--------------------:|
 |<img  src="images/Day_11_01.png" width="300"/>  |<img  src="images/Day_11_02.png" width="300"/>|<img  src="images/Day_11_03.png" width="300"/>  |<img  src="images/Day_11_04.png" width="300"/>  |
 
+***
+
+<h2 align="center">
+      <i class="fas fa-calendar-day" aria-hidden="true">  Day 12 of #3D_vision_journey </i>
+</h2>
+
+<p align="center">
+  <img  src="images/open3d_logo.png" height="50"/>  
+</p>
+
+`ISS keypoints`
+
+- [Day 12 python ](day12/)
+- [Day 12 C++ ](day12/src/)
+
+<img  src="images/Day_12_05.png" /> 
+
+RUN:
+```
+  mkdir build
+  cd build
+  cmake ..
+  make
+
+  cd ../bin
+  ./ISSKeypoint
+```
+
+### Lessons Learned
+
+- [x] Creating a spheres from key points
+- [x] converting mesh to pointCloud
+- [x] Compute ISS Keypoints on Armadillo
+- [x] c++: open3d::utility::ScopeTimer
+
+### Screenshots
+
+| Mesh   |  Point cloud  | keypoints visualization| 
+|:------:|:-------------:|:----------------------:|
+|<img  src="images/Day_12_01.png" width="300"/>  |<img  src="images/Day_12_02.png" width="300"/>|<img  src="images/Day_12_03.png" width="300"/>  |
+
+|  Creating a spheres from key points| ScopeTimer  | 
+|:----------------------------------:|:-----------:|
+|<img  src="images/Day_12_04.png" width="300"/>  |<img  src="images/Day_12_06.png" width="300"/>  |
+
