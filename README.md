@@ -445,7 +445,7 @@ RUN:
   <img  src="images/open3d_logo.png" height="50"/>  
 </p>
 
-`ISS keypoints`
+`Octree`
 
 - [Day 13 python ](day13/)
 - [Day 13 C++ ](day13/src/)
