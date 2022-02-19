@@ -435,3 +435,46 @@ RUN:
 |:----------------------------------:|:-----------:|
 |<img  src="images/Day_12_04.png" width="300"/>  |<img  src="images/Day_12_06.png" width="300"/>  |
 
+***
+
+<h2 align="center">
+      <i class="fas fa-calendar-day" aria-hidden="true">  Day 13 of #3D_vision_journey </i>
+</h2>
+
+<p align="center">
+  <img  src="images/open3d_logo.png" height="50"/>  
+</p>
+
+`ISS keypoints`
+
+- [Day 13 python ](day13/)
+- [Day 13 C++ ](day13/src/)
+
+<img  src="images/Day_13_00.png" /> 
+
+RUN:
+```
+  mkdir build
+  cd build
+  cmake ..
+  make
+
+  cd ../bin
+  ./Octree 
+```
+
+### Lessons Learned
+
+- [x] Octree division
+- [x] Voxelization
+- [x] Octree division (VoxelGrid to Octree)
+- [x] Octree to VoxelGrid
+
+### Screenshots
+
+| Mesh to Point cloud (2000 samples)   |Octree division  |  Voxelization|   
+|:------:|:-------------:|:----------------------:|
+|<img  src="images/Day_13_01.png" width="300"/>  |<img  src="images/Day_13_02.png" width="300"/>|<img  src="images/Day_13_03.png" width="300"/>  |<img  
+
+
+
