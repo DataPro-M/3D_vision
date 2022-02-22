@@ -478,3 +478,62 @@ RUN:
 
 
 
+***
+
+<h2 align="center">
+      <i class="fas fa-calendar-day" aria-hidden="true">  Day 14 of #3D_vision_journey </i>
+</h2>
+
+<p align="center">
+  <img  src="images/open3d_logo.png" height="50"/>  
+</p>
+
+`ICP Registrations`
+
+- [Day 14 python ](day14/)
+- [Day 14 C++ ](day14/src/)
+
+<!-- 
+<img  src="images/Day_12_05.png" /> 
+-->
+
+RUN:
+```
+  mkdir build
+  cd build
+  cmake ..
+  make
+
+  cd ../bin
+  ./ICPReg
+```
+
+### Lessons Learned
+
+- [x] transforming & transformation matrix
+  - 4x4 matrix(`[R, t; 0, 1]`), 
+  - `R` is a 3x3 `rotation matrix` and 
+  - `t` is a 3x1 `translation vector`.
+- [x] Applying point-to-point ICP
+- [x] P-2-P ICP with 2000 iterations
+- [x] Point-2-Plane ICP
+- [x] Applying noise to point cloud
+- [x] Robust point-to-plane ICP
+
+### Screenshots
+
+| Source + Target PCs   |  Source PC + Noise  |
+|:------------------:|:--------------------:|
+|<img  src="images/Day_14_01.png" width="300"/>  |<img  src="images/Day_14_05.png" width="300"/>|
+
+|| point-to-point ICP   |P-2-P ICP with 2000 iterations    |Point-2-Plane ICP | 
+|:------|:------:|:-------------:|:----------------------:|
+||<img  src="images/Day_14_02.png" width="300"/>  |<img  src="images/Day_14_03.png" width="300"/>|<img  src="images/Day_14_04.png" width="300"/>  |
+|__Run time__| 2.85 s ± 22.9 ms |11.9 s ± 264 ms | 2.75 s ± 25.6 ms  |
+|__Fitness__ |0.372  |0.621|0.620  |
+|__Inlier RMSE__| 0.00776 |0.006583|0.006581  |
+
+|  Noisy source + Vanilla point-to-plane ICP| Noisy source +  Robust point-to-plane ICP | 
+|:----------------------------------:|:-----------:|
+|<img  src="images/Day_14_06.png" width="300"/>  |<img  src="images/Day_14_07.png" width="300"/>  |
+
