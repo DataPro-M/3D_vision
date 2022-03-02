@@ -490,12 +490,11 @@ RUN:
 
 `ICP Registrations`
 
-- [Day 14 python ](day14/)
-- [Day 14 C++ ](day14/src/)
+- [Day 14-15 python ](day14-15/)
+- [Day 14-15 C++ ](day14-15/src/)
 
-<!-- 
-<img  src="images/Day_12_05.png" /> 
--->
+<img  src="images/Day_14-15.png" /> 
+
 
 RUN:
 ```
