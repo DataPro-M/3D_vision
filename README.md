@@ -481,7 +481,7 @@ RUN:
 ***
 
 <h2 align="center">
-      <i class="fas fa-calendar-day" aria-hidden="true">  Day 14 of #3D_vision_journey </i>
+      <i class="fas fa-calendar-day" aria-hidden="true">  Day 14 & 15 of #3D_vision_journey </i>
 </h2>
 
 <p align="center">
