@@ -26,8 +26,9 @@ class ICPReg{
     
     
 
-    shared_ptr<open3d::geometry::PointCloud>   source     = make_shared<open3d::geometry::PointCloud>();
-    shared_ptr<open3d::geometry::PointCloud>   target     = make_shared<open3d::geometry::PointCloud>();
+    shared_ptr<open3d::geometry::PointCloud>   source       = make_shared<open3d::geometry::PointCloud>();
+    shared_ptr<open3d::geometry::PointCloud>   target       = make_shared<open3d::geometry::PointCloud>();
+    shared_ptr<open3d::geometry::PointCloud>   source_noisy = make_shared<open3d::geometry::PointCloud>();
     //shared_ptr<Eigen::Matrix4d>        Transforamtion     = make_shared<Eigen::Matrix4d>();
     //shared_ptr<open3d::geometry::TriangleMesh> mesh    = make_shared<open3d::geometry::TriangleMesh>();
 
@@ -52,6 +53,8 @@ class ICPReg{
     void p2p_icp();
     void p2p_icp_iter();
     void p2plane_icp();
+    void apply_noise_2_source();
+    void robust_p2p_icp();
     
     
 };
