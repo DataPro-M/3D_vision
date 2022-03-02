@@ -134,7 +134,7 @@ void ICPReg::robust_p2p_icp(){
         shared_ptr<open3d::pipelines::registration::RobustKernel> Kernel = make_shared<open3d::pipelines::registration::TukeyLoss>(0.1);
         open3d::pipelines::registration::TransformationEstimationPointToPlane p2pl(Kernel);
         auto reg_p2l = open3d::pipelines::registration::RegistrationICP(*source, *target, 
-            ICP_threshold, trans_init, p2pl);
+                        ICP_threshold, trans_init, p2pl);
 
         auto evaluation = open3d::pipelines::registration::EvaluateRegistration(*source_noisy, *target, ICP_threshold, reg_p2l.transformation_);
         cout << "  fitness: " << evaluation.fitness_  << " (The higher, the better)"<< endl;
