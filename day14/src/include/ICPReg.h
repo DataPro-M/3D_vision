@@ -15,15 +15,21 @@ class ICPReg{
     // members cannot be accessed (or viewed) from outside the class
     private: 
 
-    void PrintVoxelGridInformation(const open3d::geometry::VoxelGrid& voxel_grid);   
+    //void draw_registration_result(const open3d::geometry::PointCloud &source, 
+    //                            const open3d::geometry::PointCloud &target,
+    //                            const Eigen::Matrix4d &Transforamtion); 
+    
+    double threshold = 0.02;
+    
+    // Manually set the transformation matrix
+    Eigen::Matrix4d trans_init = Eigen::Matrix4d::Zero();
+    
     
 
-    size_t max_depth = 5;
-    shared_ptr<open3d::geometry::Octree>       octree = make_shared<open3d::geometry::ICPReg>(max_depth);
-
-    shared_ptr<open3d::geometry::PointCloud>   pcd     = make_shared<open3d::geometry::PointCloud>();
-       
-    shared_ptr<open3d::geometry::TriangleMesh> mesh    = make_shared<open3d::geometry::TriangleMesh>();
+    shared_ptr<open3d::geometry::PointCloud>   source     = make_shared<open3d::geometry::PointCloud>();
+    shared_ptr<open3d::geometry::PointCloud>   target     = make_shared<open3d::geometry::PointCloud>();
+    //shared_ptr<Eigen::Matrix4d>        Transforamtion     = make_shared<Eigen::Matrix4d>();
+    //shared_ptr<open3d::geometry::TriangleMesh> mesh    = make_shared<open3d::geometry::TriangleMesh>();
 
 
     
@@ -38,12 +44,14 @@ class ICPReg{
         // destructor
     }
     // path to the PC
-    string path_2_mesh; 
+    string path_2_pc_1; 
+    string path_2_pc_2; 
   
 
-    void load_as_mesh(); 
-    void scale();
-    void octree_division();
-    void voxelization();
+    void load_PCs(); 
+    void p2p_icp();
+    void p2p_icp_iter();
+    void p2plane_icp();
+    
     
 };
