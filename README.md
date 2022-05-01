@@ -536,3 +536,32 @@ RUN:
 |:----------------------------------:|:-----------:|
 |<img  src="images/Day_14_06.png" width="300"/>  |<img  src="images/Day_14_07.png" width="300"/>  |
 
+
+***
+
+<h2 align="center">
+      <i class="fas fa-calendar-day" aria-hidden="true">  Day 16 of #3D_vision_journey </i>
+</h2>
+
+<p align="center">
+  <img  src="images/open3d_logo.png" height="50"/>
+
+  <img  src="images/mediapipe.png" height="50"/>    
+</p>
+
+`Draw the detected face landmarks: 2D and 3D`
+
+- [Day 16 python ](day16/)
+
+### Lessons Learned
+
+- [x] Draw the detected face landmarks
+- [x] read the video frame and do face mesh detection
+- [x] Draw face landmarks in 3D in real time
+
+### Screenshots
+
+<img  src="images/Day_16.gif" /> 
+
+
+
