@@ -545,8 +545,11 @@ RUN:
 
 <p align="center">
   <img  src="images/open3d_logo.png" height="50"/>
+    
+</p>
 
-  <img  src="images/mediapipe.png" height="50"/>    
+<p align="center">  
+  <img  src="images/mediapipe.png" height="40"/>    
 </p>
 
 `Draw the detected face landmarks: 2D and 3D`
